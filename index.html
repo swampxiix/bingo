@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="bingo.css">
+<script src="jquery-1.11.3.min.js"></script>
+<script src="bingo.js"></script>
+</head>
+<body>
+<audio id="beepboop" src="tos_sequence_8.mp3" type="audio/wav"></audio>
+
+<div>
+    <table id="bigboard"><tbody></tbody></table>
+</div>
+
+<div>
+  <div id="balldisplay"></div>
+  <div class="center">
+    <input type="button" value="Get a ball from the cage." id="drawbutton" height="100">
+  </div>
+
+  <input type="button" value="controls" id="csh">
+  <div id="controls">
+    <p>
+    Sound:
+    <label for="sound-on">
+    <input type="radio" name="sound" value="on" id="sound-on">
+    On
+    </label>
+    <label for="sound-off">
+    <input type="radio" name="sound" value="off" id="sound-off" checked>
+    Off
+    </label>
+    </p>
+    <p>
+    Reset: <input type="button" id="newgame" value="Start a New Game">
+    </p>
+  </div>
+</div>
+
+</body>
+
+</html>

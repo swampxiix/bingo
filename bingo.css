@@ -1,0 +1,45 @@
+body {
+    font-family: Verdana;
+    font-size: 12pt;
+    padding: 20px;
+    }
+
+table {
+    border-collapse: collapse;
+    margin: 0px auto;
+    }
+
+#bigboard td {
+    background-color: #333333;
+    border: 1px solid #222222;
+    color: #464646;
+    font-family: Verdana;
+    font-size: 24pt;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    }
+
+#balldisplay {
+    font-family: Verdana;
+    font-size: 144pt;
+    font-weight: bold;
+    text-align: center;
+    }
+
+.center {
+    text-align: center;
+    }
+
+.green {
+    color: green;
+    }
+
+.gray {
+    color: #CCCCCC;
+    }
+
+.white {
+    color: white !important;
+    }
+
